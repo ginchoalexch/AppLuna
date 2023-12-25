@@ -1,0 +1,48 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+body {
+    background-image: url('../images/image1_0.jpg');
+    background-size: cover; /* para cubrir todo el fondo */
+    background-repeat: no-repeat;  /*para evitar que se repita la imagen */
+    background-attachment: fixed;  /*para que la imagen no se desplace al hacer scroll 
+     Puedes ajustar otros estilos según tus preferencias */
+    color: white;  /*color del texto para que sea legible en la imagen */
+}
+@keyframes moverLuna {
+    0% {
+        transform: translateY(0); /* Inicialmente sin inclinación */
+    }
+
+    100% {
+        transform: translateY(65vh); /* Inclinación de 30 grados hacia abajo */
+    }
+}
+@keyframes moverPersona {
+    0% {
+        transform: translateX(0); /* Inicialmente sin inclinación */
+    }
+
+    100% {
+        transform: translateX(40vh); /* Inclinación de 30 grados hacia abajo */
+    }
+}
